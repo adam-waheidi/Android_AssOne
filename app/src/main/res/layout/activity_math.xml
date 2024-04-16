@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivMath"
+        android:layout_width="431dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/math" />
+
+    <TextView
+        android:id="@+id/txMath"
+        android:layout_width="236dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:text="Introducing to Math"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#151111"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_goneMarginBottom="1dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <ScrollView
+        android:layout_width="451dp"
+        android:layout_height="315dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="335dp">
+
+        <TextView
+            android:id="@+id/txintoMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:background="#E6F1F0"
+            android:text="Let's introduce each of these topics briefly:\n
+
+1. **Algebra**:
+   Algebra is the branch of mathematics that deals with symbols and the rules for manipulating these symbols. It involves solving equations, simplifying expressions, and understanding the relationships between variables. Algebra is fundamental in many areas of mathematics and science, serving as the language used to describe mathematical relationships and patterns.
+\n
+2. **Trigonometry**:
+   Trigonometry is the study of the relationships between the angles and sides of triangles. It explores trigonometric functions such as sine, cosine, and tangent, which relate angles in a triangle to the lengths of its sides. Trigonometry has numerous applications in fields like physics, engineering, and navigation, where it's used to solve problems involving angles and distances.
+\n
+3. **Calculus**:
+   Calculus is the branch of mathematics that deals with change and motion. It comprises two main branches: differential calculus, which focuses on rates of change and slopes of curves, and integral calculus, which deals with the accumulation of quantities and the area under curves. Calculus is essential in fields like physics, engineering, economics, and computer science, providing tools for modeling and analyzing continuous phenomena.
+\n
+4. **Statistics**:
+   Statistics is the study of collecting, analyzing, interpreting, presenting, and organizing data. It involves techniques for summarizing data, making inferences or predictions based on data, and testing hypotheses. Statistics is widely used in various fields such as science, social science, business, and economics to make informed decisions and draw meaningful conclusions from data.
+\n
+5. **Geometry**:
+   Geometry is the branch of mathematics that deals with the study of shapes, sizes, properties, and the relationships between points, lines, angles, surfaces, and solids. It includes concepts like geometric figures, transformations, coordinates, and measurements of lengths, angles, and areas. Geometry is used extensively in fields such as architecture, art, engineering, and physics, where understanding spatial relationships and shapes is crucial.
+\n
+These subjects form the foundation of advanced mathematical knowledge and have practical applications in numerous fields. As students progress through their studies, they'll explore these topics in greater depth, gaining a deeper understanding of their significance and relevance."
+            android:textColor="#100909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Examples"
+        android:textAlignment="center"
+        android:textColor="#151111"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFEB3B">
+
+
+        <TextView
+            android:id="@+id/txQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EBF3F6"
+            android:shadowColor="#0E0E0E"
+            android:text=" here are the solutions for each example:
+
+1. **Algebra**:\n
+   - Solving Equations:\n
+     \[ 2x + 5 = 17 \]\n
+     Subtract 5 from both sides:\n
+     \[ 2x = 12 \]\n
+     Divide both sides by 2: \n
+     \[ x = 6 \] \n
+   - Factoring \n
+     \[ x^2 + 5x + 6 = (x + 3)(x + 2) \] \n
+   - Systems of Equations: \n
+     \[ \begin{cases} \n
+     2x + y = 5 \\ \n
+     x - y = 3  \n
+     \end{cases} \] \n
+     Solve the second equation for \( x \): \n
+     \[ x = y + 3 \] \n
+     Substitute into the first equation: \n
+     \[ 2(y + 3) + y = 5 \] \n
+     Simplify and solve for \( y \): \n
+     \[ 3y = -1 \] \n
+     \[ y = -\frac{1}{3} \] \n
+     Then, substitute \( y \) back into \( x = y + 3 \) to find \( x \): \n
+     \[ x = -\frac{1}{3} + 3 = \frac{8}{3} \] \n
+2. **Trigonometry**: \n
+   - Finding Trigonometric Ratios: \n
+     For a \( 30^\circ \) angle in a right triangle, the sine, cosine, and tangent are \( \frac{1}{2} \), \( \frac{\sqrt{3}}{2} \), and \( \frac{1}{\sqrt{3}} \) respectively. \n
+   - Solving Trigonometric Equations: \n
+     \[ \sin(\theta) = \frac{1}{2} \] \n
+     This occurs when \( \theta = 30^\circ \) or \( \theta = 150^\circ \).  \n
+   - Applications of Trigonometry: \n
+     If the angle of elevation to the top of a building is \( 45^\circ \) and the distance from the building is 100 meters, the height of the building is \( 100 \times \tan(45^\circ) = 100 \) meters.
+\n
+3. **Calculus**: \n
+   - Differentiation: \n
+     \[ f'(x) = \frac{d}{dx}(3x^2 + 2x - 1) = 6x + 2 \] \n
+
+   - Integration: \n
+     \[ \int (2x + 3) \, dx = x^2 + 3x + C \] (where \( C \) is the constant of integration) \n
+
+   - Applications of Calculus: \n
+     For a rectangle with fixed perimeter \( P \), the maximum area is achieved when the rectangle is a square, so the maximum area is \( \left(\frac{P}{4}\right)^2 \). \n
+4. **Statistics**: \n
+   - Descriptive Statistics: \n
+     Mean: \( \frac{10 + 15 + 20 + 25 + 30}{5} = 20 \) \n
+     Median: 20
+     Mode: There is no mode because all the numbers appear only once. \n
+
+   - Probability: \n
+     There are 6 outcomes that result in a sum of 7 when rolling two dice, out of a total of 36 outcomes. So, the probability is \( \frac{6}{36} = \frac{1}{6} \).
+\n
+   - Hypothesis Testing: \n
+     Conduct the appropriate statistical test (e.g., t-test or ANOVA) and compare the calculated test statistic with the critical value from the corresponding distribution to determine statistical significance.
+\n
+5. **Geometry**: \n
+   - Properties of Shapes: \n
+     A regular pentagon has 5 sides, 5 angles, and 5 vertices. \n
+
+   - Coordinate Geometry: \n
+     Using the distance formula: \n
+     \[ d = \sqrt{(4 - (-3))^2 + (-5 - 2)^2} = \sqrt{7^2 + (-7)^2} = \sqrt{49 + 49} = \sqrt{98} = 7\sqrt{2} \]
+\n
+   - Geometric Transformations: \n
+     For a triangle reflected across the x-axis, the coordinates of each point are flipped across the x-axis. For example, if the original triangle has vertices \( (x_1, y_1) \), \( (x_2, y_2) \), and \( (x_3, y_3) \), the reflected triangle has vertices \( (x_1, -y_1) \), \( (x_2, -y_2) \), and \( (x_3, -y_3) \)."
+            android:textColor="#0C0C0C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</LinearLayout>

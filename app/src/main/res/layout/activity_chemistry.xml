@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivMath"
+        android:layout_width="431dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/chemistrey" />
+
+    <TextView
+        android:id="@+id/txMath"
+        android:layout_width="236dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:background="#03A9F4"
+        android:backgroundTint="#03A9F4"
+        android:text="Introducing to Chemistry"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#151111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_goneMarginBottom="1dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <ScrollView
+        android:layout_width="430dp"
+        android:layout_height="330dp"
+        android:layout_marginLeft="10dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="335dp">
+
+        <TextView
+            android:id="@+id/txintoMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="3dp"
+            android:background="#03A9F4"
+            android:text="Chemistry is the captivating study of matter, its properties, composition, structure, and the changes it undergoes. At its core, chemistry delves into the fundamental building blocks of the universe, exploring the interactions between atoms and molecules that shape everything around us. From the simple beauty of a water molecule to the complex structures of proteins, chemistry provides a lens through which we can understand the world on both the macro and micro levels. It encompasses various branches such as organic chemistry, inorganic chemistry, physical chemistry, analytical chemistry, and biochemistry, each offering unique perspectives and insights into different aspects of matter. Organic chemistry delves into the intricacies of carbon-containing compounds, exploring their synthesis, structure, and reactivity, which underpins the vast array of organic molecules crucial to life and industry. Inorganic chemistry investigates the properties and behaviors of inorganic compounds, including metals, minerals, and ceramics, offering insights into materials science, catalysis, and environmental chemistry. Physical chemistry bridges the gap between physics and chemistry, studying the principles governing chemical reactions, thermodynamics, and quantum mechanics, providing a deeper understanding of molecular interactions and energy transfer. Analytical chemistry focuses on the development of methods and techniques for identifying and quantifying substances, playing a vital role in fields such as forensic science, environmental monitoring, and pharmaceutical analysis. Biochemistry delves into the molecular mechanisms of biological processes, unraveling the complexities of life at the molecular level, from enzyme catalysis to genetic regulation. Chemistry is not just confined to laboratories; its applications permeate every facet of our lives, from the food we eat and the medicines we take to the materials we use and the energy we harness. Moreover, chemistry plays a crucial role in addressing global challenges such as climate change, pollution, and sustainable development, driving innovation and shaping the future of humanity. In essence, chemistry is not merely a scientific discipline but a profound exploration of the very essence of existence, offering endless possibilities for discovery, innovation, and understanding.     "
+            android:textColor="#100909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Questions"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="438dp"
+        android:layout_height="match_parent"
+        android:background="#00BCD4">
+
+
+        <TextView
+            android:id="@+id/txQuestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#03A9F4"
+            android:shadowColor="#0E0E0E"
+            android:text="1. What is the fundamental focus of chemistry?\n
+        2. How does chemistry contribute to our understanding of matter and its properties?\n
+        3. Can you explain the significance of different branches of chemistry such as organic, inorganic, physical, analytical, and biochemistry?\n
+        4. How does organic chemistry influence our everyday lives, from the food we eat to the materials we use?\n
+        5. What are some examples of inorganic compounds, and how do they impact various industries and fields?\n
+        6. What is the role of physical chemistry in elucidating molecular interactions and energy transfer?\n
+        7. How does analytical chemistry aid in identifying and quantifying substances, and what are its practical applications?\n
+        8. What insights does biochemistry provide into biological processes, and how does it contribute to advancements in medicine and biotechnology?\n
+        9. How does chemistry intersect with other scientific disciplines, such as physics and biology?\n
+        10. In what ways does chemistry address global challenges such as climate change, pollution, and sustainable development?"
+            android:textColor="#0C0C0C"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </ScrollView>
+
+</LinearLayout>
