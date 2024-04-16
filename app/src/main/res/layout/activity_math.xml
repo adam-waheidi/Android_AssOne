@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="233dp" />
 
     <ScrollView
-        android:layout_width="451dp"
+        android:layout_width="match_parent"
         android:layout_height="315dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-1dp"
@@ -82,17 +82,79 @@ These subjects form the foundation of advanced mathematical knowledge and have p
         android:textColor="#151111"
         android:textSize="34sp"
         android:textStyle="bold|italic" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="579dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:background="#F6F1F1"
+                android:text="Certainly! Here are two or three examples for each topic:
+
+1. **Algebra**: \n
+   - Solving Equations: Solve for \( x \) in the equation \( 2x + 5 = 17 \).\n
+   - Factoring: Factor the quadratic expression \( x^2 + 5x + 6 \).\n
+   - Systems of Equations: Solve the system of equations:\n
+     \[ \begin{cases} \n
+     2x + y = 5 \\ \n
+     x - y = 3 \n
+     \end{cases} \] \n
+
+2. **Trigonometry**: \n
+   - Finding Trigonometric Ratios: Find the sine, cosine, and tangent of a \( 30^\circ \) angle in a right triangle.\n
+   - Solving Trigonometric Equations: Solve for \( \theta \) in the equation \( \sin(\theta) = \frac{1}{2} \).\n
+   - Applications of Trigonometry: Calculate the height of a building using the angle of elevation and distance from the building.
+\n
+3. **Calculus**: \n
+   - Differentiation: Find the derivative of \( f(x) = 3x^2 + 2x - 1 \). \n
+   - Integration: Evaluate \( \int (2x + 3) \, dx \). \n
+   - Applications of Calculus: Find the maximum area of a rectangle with a fixed perimeter. \n
+
+4. **Statistics**: \n
+   - Descriptive Statistics: Calculate the mean, median, and mode of the following data set: \( 10, 15, 20, 25, 30 \). \n
+   - Probability: Find the probability of rolling a sum of 7 with two six-sided dice.\n
+   - Hypothesis Testing: Conduct a hypothesis test to determine if there is a significant difference between the mean scores of two groups.
+\n
+5. **Geometry**:\n
+   - Properties of Shapes: Identify the number of sides, angles, and vertices in a regular pentagon. \n
+   - Coordinate Geometry: Find the distance between the points \( (-3, 2) \) and \( (4, -5) \). \n
+   - Geometric Transformations: Perform a reflection of a triangle across the x-axis. \n
+
+These examples cover a range of concepts within each topic and demonstrate how they can be applied to solve problems in various contexts."
+                android:textColor="#0C0C0C"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Solutions "
+        android:textAlignment="center"
+        android:textColor="#121111"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
         android:background="#FFEB3B">
 
 
         <TextView
             android:id="@+id/txQuestions"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="#EBF3F6"
             android:shadowColor="#0E0E0E"
             android:text=" here are the solutions for each example:
